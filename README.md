@@ -1,19 +1,24 @@
-# customer-churn-prediction
-ETL pipeline and churn prediction modelling using Logistic Regression and Decision Tree
+# Customer Churn Prediction 🚀
 
-# Customer Churn Prediction Project
+![Customer Churn Prediction](assets/banner.png)
 
-Proyek ini berfokus pada:
-- ETL pipeline untuk membangun data warehouse sederhana.
-- Analisis churn modelling berdasarkan transaksi pelanggan.
+## 📖 Deskripsi
+Perusahaan sering kehilangan pelanggan tanpa disadari.  
+Proyek ini membangun **ETL pipeline** dan **machine learning model** (Logistic Regression & Decision Tree)  
+untuk memprediksi pelanggan yang berpotensi churn berdasarkan riwayat transaksi.
 
-## Struktur Repository
-- `notebooks/ETL_Pipeline.ipynb` → Proses ETL untuk menghasilkan dataset.
-- `notebooks/Churn_Modelling.ipynb` → Modelling churn customer.
-- `data/README.md` → Informasi tentang dataset.
-- `requirements.txt` → Library yang digunakan.
+## 🗂️ Struktur Repository
+- `notebooks/ETL_Pipeline.ipynb` → ETL pipeline
+- `notebooks/Churn_Modelling.ipynb` → Modelling churn
+- `data/README.md` → Info dataset
+- `requirements.txt` → Library
 
-## Dataset
-Dataset tidak diupload ke repository karena ukurannya besar.  
-Silakan download dari [link ini](https://drive.google.com/file/d/1hZRE-TGyoplPDZNR8P_0kLPaVfrm2N70/view?usp=drive_link).
+## 📊 Dataset
+- Sumber: [Link ke dataset](https://drive.google.com/...)  
+- Jumlah data: 10.000 transaksi pelanggan  
+- Fitur penting: `customer_id, tenure, contract_type, monthly_charges, churn`
 
+## ⚙️ Cara Menjalankan
+1. Clone repository:
+   ```bash
+   git clone https://github.com/username/customer-churn-prediction.git
