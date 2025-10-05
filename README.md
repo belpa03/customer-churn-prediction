@@ -2,24 +2,23 @@
 
 ![Customer Churn Prediction](assets/banner.png)
 
-## 📖 Deskripsi
-Perusahaan sering kehilangan pelanggan tanpa disadari.  
-Proyek ini membangun **ETL pipeline** dan **machine learning model** (Logistic Regression & Decision Tree)  
-untuk memprediksi pelanggan yang berpotensi churn berdasarkan riwayat transaksi.
+## 📖 Overview
+Businesses often lose customers without realizing the early signs.  
+This project builds an **ETL pipeline** and **machine learning models** (Logistic Regression & Decision Tree)  
+to predict potential customer churn based on transaction history.
 
-## 🗂️ Struktur Repository
-- `notebooks/ETL_Pipeline.ipynb` → ETL pipeline
-- `notebooks/Churn_Modelling.ipynb` → Modelling churn
-- `data/README.md` → Info dataset
-- `requirements.txt` → Library
+## 🗂️ Repository Structure
+- `notebooks/ETL_Pipeline.ipynb` → ETL data processing pipeline  
+- `notebooks/Churn_Modelling.ipynb` → Model training and evaluation  
+- `data/README.md` → Dataset information  
+- `requirements.txt` → Project dependencies  
 
 ## 📊 Dataset
-- Sumber: [Link ke dataset](https://drive.google.com/...)  
-- Jumlah data: 10.000 transaksi pelanggan  
-- Fitur penting: `customer_id, tenure, contract_type, monthly_charges, churn`
+- Source: [Dataset link](https://drive.google.com/...)  
+- Total records: 10,000 customer transactions  
+- Key features: `customer_id`, `tenure`, `contract_type`, `monthly_charges`, `churn`
 
-
-## 📈 Hasil Model
+## 📈 Model Performance
 
 ### 🔹 Logistic Regression
 - Accuracy: **78%**
@@ -34,23 +33,19 @@ untuk memprediksi pelanggan yang berpotensi churn berdasarkan riwayat transaksi.
 ---
 
 ## 🛠️ Tech Stack
-Project ini dibuat dengan tools & library berikut:
-
-- Python 3.9
-- Pandas, NumPy → data processing
-- Matplotlib, Seaborn → visualisasi
-- scikit-learn → machine learning (Logistic Regression, Decision Tree)
-- Jupyter Notebook → development
-- Google Colab → eksekusi notebook di cloud
-- Git & GitHub → version control & kolaborasi
+This project is built using the following tools and libraries:
+- Python 3.9  
+- Pandas, NumPy → data processing  
+- Matplotlib, Seaborn → data visualization  
+- scikit-learn → machine learning (Logistic Regression, Decision Tree)  
+- Jupyter Notebook / Google Colab → model development  
+- Git & GitHub → version control and collaboration  
 
 ---
 
-## ✅ Kesimpulan
-- **Decision Tree** memiliki performa lebih baik dibanding Logistic Regression  
+## ✅ Conclusion
+- The **Decision Tree** outperforms Logistic Regression  
   (Accuracy 81% vs 78%).  
-- Recall model cukup baik untuk mendeteksi pelanggan yang berpotensi churn.  
-- Project ini bisa dikembangkan lebih lanjut dengan model lain (Random Forest, XGBoost)  
-  atau penambahan fitur baru dari data transaksi pelanggan.
-
-
+- The model demonstrates solid recall for identifying potential churners.  
+- Future improvements could include using **Random Forest** or **XGBoost**,  
+  and feature enrichment from customer transaction data.
