@@ -1,7 +1,5 @@
 # Customer Churn Prediction 🚀
 
-![Customer Churn Prediction](assets/banner.png)
-
 ## 📖 Overview
 Businesses often lose customers without realizing the early signs.  
 This project builds an **ETL pipeline** and **machine learning models** (Logistic Regression & Decision Tree)  
